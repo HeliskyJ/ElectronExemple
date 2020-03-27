@@ -1,0 +1,11 @@
+@mixin navegate {
+    position: fixed;
+    margin-left: 0%;
+    list-style-type: circle;
+}
+
+ul{
+    @include navegate;
+    background-color: #57b32d;
+    color: blue;
+}
